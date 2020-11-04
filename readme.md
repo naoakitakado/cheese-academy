@@ -1,5 +1,7 @@
 # プロダクトのタイトル
 
+- デプロイ先 https://naoakitakado.github.io/cheese-academy/
+
 ## プロダクトの紹介
 
 -　CHEESE ACADEMYのwebサイト
