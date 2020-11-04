@@ -1,0 +1,59 @@
+
+
+<!-- CONTACT始まり
+         <div class="contact"> 
+            <div class="contact-midasi">
+                <h5><a name="contact"></a> CONTACT</h5>
+                <p>説明会お申し込み・お問い合わせ</p>
+                <p>ぜひ1度，足を運んでみませんか．説明会は随時開催中．</p>
+                <p>その他，お問い合わせもお気軽にどうぞ．お待ちしております．</p>
+                <p>チーズアカデミーは実際には存在しません．</p>
+                <p>間違っても問い合わせしないようお願いいたします．</p>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <table>
+                        <tbody>
+                            <tr><td><label for="name">名前</label></td><td><input type="text" id="name" ></td></tr>
+                            <tr><td><label for="kana">カナ</label></td><td><input type="text" id="kana" ></td></tr>
+                            <tr><td><label for="mail">メールアドレス</label></td><td><input type="email" id="mail"></td></tr>
+                            <tr><td><label for="siboudouki">志望動機</label></td>
+                                <td>
+                                <input type="checkbox"><label for="siboudouki">起業したい</label><br>
+                                <input type="checkbox"><label for="siboudouki">チーズ系企業に就職・転職したい</label><br>
+                                <input type="checkbox"><label for="siboudouki">チーgit ズと関わる仕事をしており，仕事に生かしたい</label><br>
+                                <input type="checkbox"><label for="siboudouki">チーズの教養を身につけたい</label>
+                                </td>
+                            </tr>
+                            <tr><td><label for="syousai" id="syoudai">詳細</label></td><td><textarea name="" id="syousai" cols="30" rows="10"  ></textarea></td></tr>
+                        </tbody>
+                    </table>
+                </form>
+                <div class="button1">
+                    <button>送信</button>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+      
+
+
+    <!-- 4つの画像上部までの塊 -->
+    <!-- <div class="content-box">
+            <div class="content-box-1"><img src="img/about_01.jpg" alt="" ></div>
+            <div class="content-box-2"><img src="img/about_02.jpg" alt="" ></div>
+            <div class="content-box-3"><img src="img/about_03.jpg" alt="" ></div>
+            <div class="content-box-4"><img src="img/about_04.jpg" alt="" ></div>
+        </div> -->
+    <!-- <div class="slider">
+            <div class="slider__inner">
+                <div class="slider__item"><img src="img/about_01.jpg" alt="" width="300"></div>
+                <div class="slider__item"><img src="img/about_02.jpg" alt="" width="300"></div>
+                <div class="slider__item"><img src="img/about_03.jpg" alt="" width="300"></div>
+                <div class="slider__item"><img src="img/about_04.jpg" alt="" width="300"></div>
+                <div class="slider__item"><img src="img/about_04.jpg" alt="" width="300"></div>
+            </div>
+        </div> -->

@@ -19,32 +19,39 @@
     <link rel="stylesheet" type="text/css" href="css/style.css" />
    
     <!-- あらかじめcssを読み込んでいるので設定しなくてOK-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript" src="top.js" ></script>
+
+
+
+
 </head>
 
 <body>
     <!-- ここから記述しよう -->
+
+    <!-- ヘッダー部分 -->
     <div class="main-back-image">
         <div class="main-back-image1">
             <h1>セカイを変えるチーズを作ろう</h1>
             <p>チーズ職人養成学校「チーズアカデミーFUKUOKA」</p>
         </div>
     </div>
-     <!-- 画像のhtml -->
-    <div class="nav-menu">
-        <div class="nav-menu-rogo">
-            <img src="img/header_logo.png" >
+        <div class="nav-menu">
+            <div class="nav-menu-rogo">
+                <img src="img/header_logo.png" >
+            </div>
+            <div class="nav-menu-rogo-box">
+                <div class="about1-1"><a href="#about">ABOUT</a></div>
+                <div class="course1-1"><a href="#course">COURSE</a></div>
+                <div class="news1-1"><a href="#news">NEWS</a></div>
+                <div class="access1-1"><a href="#access">ACCESS</a></div>
+                <div class="contact1-1"><a href="#contact">CONTACT</a></div>
+            </div>
         </div>
-        <!-- ロゴ -->
-        <div class="nav-menu-rogo-box">
-            <div><a href="#about">ABOUT</a></div>
-            <div><a href="#course">COURSE</a></div>
-            <div><a href="#news">NEWS</a></div>
-            <div><a href="#access">ACCESS</a></div>
-            <div><a href="#contact">CONTACT</a></div>
-        </div>
-        <!-- ナビゲーターボックス -->
-    </div>
-<!-- ロゴとナビゲーターメニュー-->
+    <!-- ヘッダー部分 -->
+    <!-- ABOUT -->
     <div class="main">
         <h2><a name="about">ABOUT</a></h2>
         <p class="main-p1">アカデミーについて</p>
@@ -53,22 +60,6 @@
         <p class="main-p4">そんな思いから，チーズ職人養成学校「チーズアカデミーFUKUOKA」は歩みを始めています．</p><br>
         <p class="main-p5">卒業後，チーズ自給自足のバックアップはもちろんのこと，<br>チーズ職人への就職・転職もサポートします．</p>
     </div>
-    <!-- 4つの画像上部までの塊 -->
-    <!-- <div class="content-box">
-        <div class="content-box-1"><img src="img/about_01.jpg" alt="" ></div>
-        <div class="content-box-2"><img src="img/about_02.jpg" alt="" ></div>
-        <div class="content-box-3"><img src="img/about_03.jpg" alt="" ></div>
-        <div class="content-box-4"><img src="img/about_04.jpg" alt="" ></div>
-    </div> -->
-    <!-- <div class="slider">
-        <div class="slider__inner">
-            <div class="slider__item"><img src="img/about_01.jpg" alt="" width="300"></div>
-            <div class="slider__item"><img src="img/about_02.jpg" alt="" width="300"></div>
-            <div class="slider__item"><img src="img/about_03.jpg" alt="" width="300"></div>
-            <div class="slider__item"><img src="img/about_04.jpg" alt="" width="300"></div>
-            <div class="slider__item"><img src="img/about_04.jpg" alt="" width="300"></div>
-        </div>
-    </div> -->
     <!-- ループスライダー -->
     <div class="loop-wrap-1">
         <div class="loop_wrap">
@@ -76,7 +67,8 @@
         </div>
     </div>
     <!-- ----------------------- -->
-    <!-- 4つの画像の塊 -->
+    <!-- ABOUT終わり -->
+    <!-- CORSE -->
     <div class="course">
         <div class="corse-text">
         <h3><a name="course"></a> Course</h3>
@@ -85,9 +77,8 @@
         </div>
     </div>
     <div class="course-content">
-        <!-- content1行目 始まり-->
         <div class="content1-left">
-            <img src="img/course_01.jpg" alt="">
+            <img src="img/course_01.jpg"  class="magnify" alt="">
         </div>
         <div class="content1-right">
                 <div class="content1-right-text">
@@ -95,9 +86,6 @@
                    <p>チーズアカデミーでは，本格的な農園を使った実地研修を行うことができます．プロとして活躍するチーズ職人も使用するような，広大で環境も整った農園を余すところなく使い，卒業時には本格的なチーズを自分の力で作れる実践力の養成を目指します．</p>
                 </div>
         </div>
-        <!-- content1行目 終わり-->
-
-        <!-- content2行目 始まり-->
         <div class="content2-left">
             <div class="content2-left-text">
             <h3>必要な知識もしっかりと取得</h3>
@@ -107,9 +95,6 @@
         <div class="content2-right">
             <img src="img/course_02.jpg" alt="">
         </div>
-        <!-- content2行目 終わり-->
-
-        <!-- content3行目 始まり-->
         <div class="content3-left">
             <img src="img/course_03.jpg" alt="">
         </div>
@@ -120,15 +105,15 @@
                 </p>
             </div>
         </div>
-        <!-- content3行目 終わり-->
     </div>
-    <!-- course-content終了 -->
+    <!-- CORSE終わり -->
+    <!-- NEWS -->
     <div class="news">
       <div class="news-midasi">
           <h5><a name="news"></a> NEWS</h5>
           <p>ニュース</p>
       </div>
-        <div class="news-content">
+      <div class="news-content">
             <div class="news-content1">
                 <div class="news-content1-image"></div>
                 <img src="img/news_img.jpg" alt="">
@@ -158,10 +143,9 @@
                 <button>More</button>
             </div>
         </div>
-        <!-- news-content終了 -->
     <!-- news終了 -->
 
-    <!-- ACCESS開始 -->
+    <!-- ACCESS -->
     <div class="access">
         <div class="access-midasi">
             <h5><a name="access"></a> ACCESS</h5>
@@ -172,7 +156,6 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.721819117452!2d130.3923020152028!3d33.58657128073509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541918695a762f1%3A0x4cd666427ea8220!2z44CSODEwLTAwNDEg56aP5bKh55yM56aP5bKh5biC5Lit5aSu5Yy65aSn5ZCN77yR5LiB55uu77yT4oiS77yU77yRIOODl-ODquOCquWkp-WQjeODk-ODqyAxRg!5e0!3m2!1sja!2sjp!4v1604327360557!5m2!1sja!2sjp"
                 width="960" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                 tabindex="0"></iframe>
-            <!-- googlemap -->
         </div>
         <div class="access-dangumi">
             <table>
@@ -196,140 +179,53 @@
             </table>
         </div>
     </div>
-        <!-- ACESS終わり -->
+        <!--  ACESS終わり --       -->
 
-        <!-- CONTACT始まり -->
-         <div class="contact"> 
-            <div class="contact-midasi">
-                <h5><a name="contact"></a> CONTACT</h5>
-                <p>説明会お申し込み・お問い合わせ</p>
-                <p>ぜひ1度，足を運んでみませんか．説明会は随時開催中．</p>
-                <p>その他，お問い合わせもお気軽にどうぞ．お待ちしております．</p>
-                <p>チーズアカデミーは実際には存在しません．</p>
-                <p>間違っても問い合わせしないようお願いいたします．</p>
-            </div>
-            <div class="contact-form">
-                <form action="">
-                    <table>
-                        <tbody>
-                            <tr><td><label for="name">名前</label></td><td><input type="text" id="name" ></td></tr>
-                            <tr><td><label for="kana">カナ</label></td><td><input type="text" id="kana" ></td></tr>
-                            <tr><td><label for="mail">メールアドレス</label></td><td><input type="email" id="mail"></td></tr>
-                            <tr><td><label for="siboudouki">志望動機</label></td>
-                                <td>
-                                <input type="checkbox"><label for="siboudouki">起業したい</label><br>
-                                <input type="checkbox"><label for="siboudouki">チーズ系企業に就職・転職したい</label><br>
-                                <input type="checkbox"><label for="siboudouki">チーgit ズと関わる仕事をしており，仕事に生かしたい</label><br>
-                                <input type="checkbox"><label for="siboudouki">チーズの教養を身につけたい</label>
-                                </td>
-                            </tr>
-                            <tr><td><label for="syousai" id="syoudai">詳細</label></td><td><textarea name="" id="syousai" cols="30" rows="10"  ></textarea></td></tr>
-                        </tbody>
-                    </table>
-                </form>
-                <div class="button1">
-                    <button>送信</button>
+        <!-- CONTACT -->
+        <div class="contact">
+            <div class="contact-text">
+                <div class="contact-text1">
+                    <h5>CONTACT</h5>
+                </div>
+                <div class="contact-text2">
+                    <p>説明会お申し込み・お問い合わせ</p>
+                </div>
+                <div class="contact-text3">
+                    <p>ぜひ1度、足を運んでみませんか。説明会は随時開催中。</p>
+                </div>
+                <div class="contact-text4">
+                    <p>その他、お問い合わせもお気軽にどうぞ、お待ちしております。</p>
+                </div>
+                <div class="contact-text5">
+                    <p>間違ってもお問い合わせしないようお願いいたします。</p>
                 </div>
             </div>
-        </div>
-        <div class="toplink">
-            <div class="toplink1">
-                <a href="img/ジェリー.jpg"></a> 
+            <table>
+                <tbody>
+                    <tr><td class="name"><label for="name">名前</label></td><td><input type="text" id="name" ></td></tr>
+                    <tr><td class="kana"><label for="kana">カナ</label></td><td><input type="text" id="kana"></td></tr>
+                    <tr><td class="email"><label for="email">メールアドレス</label></td><td><input type="email" id="email"></td></tr>
+                    <tr><td><div class="sibou"><label for="sibou">志望動機</label></div></td><td><div class="checkbox1"><input type="checkbox"><lavel for="kigyou" class="kigyou">起業したい</lavel></div></td></tr>
+                    <tr><td></td><td><div class="checkbox2"><input type="checkbox" id="tensyoku"><lavel for="tensyoku" class="tensyoku">チーズ企業に就職・転職したい</lavel></div></td></tr>
+                    <tr><td></td><td><div class="checkbox3"><input type="checkbox" id="sigoto"><lavel for="sigoto" class="sigoto">チーズと関わる仕事をしており，仕事に生かしたい</lavel></div></td></tr>
+                    <tr><td></td><td><div class="checkbox4"><input type="checkbox" id="kyouyou"><lavel for="kyouyou" class="kyouyou">チーズの教養を身につけたい</lavel></div></td></tr>
+                    <tr><td class="syousai"><label for="syousai">詳細</label></td><td><textarea name="" id="syousai" cols="30" rows="10"></textarea></td></tr>
+                </tbody>
+            </table>
+            <div class="sousin">
+                <div class="sousin-buttan">送信</div>
             </div>
         </div>
+        <!-- CONTACT終わり -->
+
+    
+        <!-- footer -->
+        <div class="pagetop">↑</div>
         <footer>
             <div class="copyrights">
                 <p>copyrights 2016-2018 Cheeese Academy Fukuoka All RIghts Reserved.</p>
             </div>
         </footer>
-        <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-        <script type="text/javascript" src="roop.js"></script>
+        <!-- footer終わり -->
 </body>
 </html>
-
-
-
-<!-- ■メインビジュアル
-・セカイを変えるチーズを作ろう
-・チーズ職人養成学校「チーズアカデミーFUKUOKA」
-
-
-■About
-・チーズアカデミーは，チーズ職人養成学校です．
-・チーズの素晴らしさを，自給自足を通じて，できるだけ多くの人に知っていただきたい．そして，食卓にはいつもチーズがあった，あの頃の当たり前をこの手で取り戻したい．
-・そんな思いから，チーズ職人養成学校「チーズアカデミーFUKUOKA」は歩みを始めています．
-・卒業後，チーズ自給自足のバックアップはもちろんのこと，チーズ職人への就職・転職もサポートします．
-
-
-■Course
-・未経験からでもスタートができるよう，カリキュラムは多くの専門家や現役チーズ職人のアドバイスのもと，作られました．
-
-
-・本格的な農園を使った実地研修
-・チーズアカデミーでは，本格的な農園を使った実地研修を行うことができます．プロとして活躍するチーズ職人も使用するような，広大で環境も整った農園を余すところなく使い，卒業時には本格的なチーズを自分の力で作れる実践力の養成を目指します．
-
-
-・必要な知識もしっかりと取得
-・チーズ作りには，しっかりとした食に関する知識が欠かせません．チーズアカデミーでは，一流講師陣による，チーズ作りに必要ないろはを余すところなく学べます．チーズそのものでなく，栄養学全般を学ぶことも可能ですので，チーズ以外への展開も夢ではないでしょう．
-
-
-・卒業制作はティスティング審査あり
-・チーズアカデミーでは最後の2ヶ月間で卒業制作を実施．卒業制作として，チーズ作りを実際に行います．卒業後，一般参加によるティスティング審査があるため，作り手の目線だけでなく，消費者の目線から，卒業制作作品としてのチーズを，しっかりと評価いただくことができます．
-
-
-
-
-■NEWS
-2018/11/24
-チーズアカデミー卒業生のコスゲさんによるチーズだけをふんだんに使用した話題のピザ屋「Kosuge Pizza」が天神でオープンしました！
-
-
-■Access
-学校名 チーズアカデミーFUKUOKA
-事務所所在地 〒810-0041 福岡県福岡市中央区大名1丁目3-41 プリオ大名ビル1F
-TEL 000-000-0000
-FAX 999-999-9999
-MAIL dummy@cheeseacademy.tokyo
-
-
-■Contact
-説明会お申し込み・お問い合わせ
-
-
-ぜひ1度，足を運んでみませんか．説明会は随時開催中．
-その他，お問い合わせもお気軽にどうぞ．お待ちしております．
-
-
-※チーズアカデミーは実際には存在しません．間違っても問い合わせしないようお願いいたします．
-
-
-
-
-志望動機選択肢
-・起業をしたい
-・チーズ系企業に就職・転職したい
-・チーズと関わる仕事をしており，仕事に生かしたい
-・チーズの教養を身につけたい
-
-
-
-
-copyrights 2016-2018 Cheeese Academy Fukuoka All RIghts Reserved.
-
-
-■headタグ内
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>チーズアカデミー</title>
-<meta name="description" content=“世界を変えるチーズを作ろう．チーズアカデミーは，チーズ職人を養成するための学校です．”>
-<meta property="og:title" content="チーズアカデミー">
-<meta property="og:type" content="website" />
-<meta property="og:url" content="#" />
-<meta property="og:image" content="images/common/ogimage.png">
-<meta property="og:site_name" content="チーズアカデミー" />
-<meta property="og:description" content="世界を変えるチーズを作ろう．チーズアカデミーは，チーズ職人を養成するための学校です．" />
-<meta name="format-detection" content="telephone=no">
-<link rel="canonical" href="#">
-<link rel="apple-touch-icon" href="images/common/touch-icon.png">
-<link rel="shortcut icon" href="images/common/favicon.ico"> -->
